@@ -150,6 +150,7 @@ public class ZoomPlugin implements FlutterPlugin, MethodCallHandler,ActivityAwar
         params.displayName = options.get("userId");
         params.meetingNo = options.get("meetingId");
         params.password = options.get("meetingPassword");
+        params.webinarToken = options.get("webinarToken");
 
         meetingService.joinMeetingWithParams(context, params, opts);
 
