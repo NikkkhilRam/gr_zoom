@@ -72,7 +72,8 @@ Future<void> checkAndDownloadSDK(String location) async {
 
   if (!exists) {
     await downloadFile(
-        Uri.parse('https://com21-static.s3.sa-east-1.amazonaws.com/zoom/ios/5.13.5/ios-arm64/MobileRTC?dl=1'),
+        Uri.parse('https://www.dropbox.com/
+scl/fi/rotru7h0hzfb57nk4krsy/MobileRTC?rlkey=w2i5c45d1nuzlvo77iukg5ed6&dl=1'), // updated the version from 5.13.5
         iosSDKFile);
   }
 
@@ -82,7 +83,8 @@ Future<void> checkAndDownloadSDK(String location) async {
 
   if (!exists) {
     await downloadFile(
-        Uri.parse('https://com21-static.s3.sa-east-1.amazonaws.com/zoom/ios/5.13.5/ios-arm64_x86_64-simulator/MobileRTC'),
+        Uri.parse('https://www.dropbox.com/
+scl/fi/wkphhnuz9ezwt9pgx7o6n/MobileRTC?rlkey=01dsox5ghw5g0e1e95cn2vio3&dl=1'),
         iosSimulateSDKFile);
   }
 
